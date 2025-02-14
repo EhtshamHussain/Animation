@@ -302,14 +302,3 @@ fun Line() {
             )
     ) {}
 }
-//
-//shrinkOut(tween(1500, easing = FastOutSlowInEasing), shrinkTowards = Alignment.TopStart){fullSize->
-//    IntSize(fullSize.width / 10, fullSize.height / 5)
-//}
-//AnimatedVisibility(
-//visible =  showImage,
-//exit = slideOut(tween(100, easing = FastOutSlowInEasing)){
-//    IntOffset(-180,50)
-//}
-//) {
-//}
